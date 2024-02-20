@@ -1,1 +1,1 @@
-Code and assets for deployed website (currently inactive)
+Code and assets for deployed website kennyjpark.me (currently inactive)
