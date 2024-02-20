@@ -1,0 +1,271 @@
+.card {
+		background-color: #262626;
+		border-color: #f2f2f2;
+		display: inline-block;
+		margin: 1em;
+		height: auto;
+		min-height: 450px;
+		min-width: 300px;
+
+}
+
+h3, text-center{
+	letter-spacing: 0.1em;
+}
+
+.card-title{
+	/*
+	color: #a3297a;
+	*/
+	display: block;
+	color: #00cca3;
+	font-size: 1.2em;
+	letter-spacing: 0.05em;
+	text-align: center;
+	margin-bottom: 1em;
+	margin-top: 1em;
+	text-align: center;
+	text-decoration: none;
+	font-weight: bold;
+	line-height: 1.6;
+}
+
+.card-body{
+		box-sizing: border-box;
+		background-color: #1e1e2f;
+		border-color: #1a1a1a;
+		border-top: solid 1px;
+		position: relative;
+		max-width: 100%;
+		margin: 0;
+		flex: 1;
+}
+
+.card-body#tech{
+		min-height: 175px;
+}
+
+.card-img-top{
+	display: block;
+	max-width: 300px;
+	max-height: 300px;
+	width: 100%;
+	height: 100%;
+	max-width: 100%;
+	z-index: -2;
+
+}
+.card-img-top#tech{
+ min-width: 298px;
+ min-height: 200px;
+ max-width: 298px;
+ max-height: 200px;
+}
+.card-img-bottom{
+
+}
+
+.card-text{
+	display: block;
+	margin-left: 1em;
+	margin-right: 1em;
+	text-align: center;
+	color: #f2f2f2;
+	font-size: 1em;
+	margin: auto;
+	flex: 1;
+}
+
+
+.card:hover {
+	border-color: #8080ff;
+
+}
+
+.card-deck{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	margin: 1%;
+}
+
+.card-deck .card{
+	max-width: 300px;
+	margin-bottom: 1em;
+}
+
+.btn-info{
+	background: linear-gradient( #622774 5%, #C53364);
+	border-color: black;
+	color: #f2f2f2;
+	text-decoration: none;
+}
+.btn-info:hover{
+	border-color: black;
+	border-color: #b82e8a;
+	box-shadow: none !important;
+}
+
+.btn-info:before,
+.btn-info.before{
+	outline: none !important;
+
+}
+
+.btn-info:focus,
+.btn-info.focus{
+	border:none;
+	background-color: black;
+	border-color: black;
+	box-shadow: none !important;
+}
+
+.btn-info.active,
+.btn-info:active{
+	outline: none !important;
+	background-color: black;
+	border-color: black;
+	box-shadow: none !important;
+}
+
+.btn-info.notes{
+	margin-left: 6em;
+	margin-right: 2em;
+}
+
+.card-notes{
+	margin-left: 6em;
+	margin-right: 15em;
+	margin-top: 0em;
+	padding: 0;
+	text-indent: 1em;
+	font-weight: bold;
+	line-height: 1.6;
+}
+
+
+
+
+.card-title:hover{
+	color: #00ffcc;
+
+}
+.card-difficult-undefined{
+	background-color: gray;
+
+}
+
+.panel-title{
+	color: yellow;
+	color: #d9d9d9;
+	font-size: 1em;
+	line-height: 1.6;
+	text-align: left;
+	margin: 0;
+}
+
+.btn-full-writeup{
+
+}
+
+.card-difficult-easy{
+
+	/*position:absolute;*/
+
+	min-width: 298px;
+	z-index: 1;
+
+	background: linear-gradient(45deg, lightgreen 5%, #7bea7b);
+	text-align: center;
+	font-weight: bold;
+	font-size: 1.1em;
+	margin: 0;
+	top: 22em;
+	color: black;
+
+}
+
+.card-difficult-medium{
+	font-size: 1.1em;
+	/*position:absolute;*/
+
+
+	min-width: 298px;
+	z-index: 1;
+
+	background: linear-gradient(45deg, #ffff33 5%, #ffff00);
+	text-align: center;
+	font-weight: bold;
+	margin: 0;
+	top: 22em;
+	color: black;
+}
+
+.card-difficult-hard{
+
+	/*position:absolute;*/
+
+	min-width: 298px;
+	z-index: 1;
+	background: linear-gradient(45deg, #ff3333 5%, red);
+	text-align: center;
+	font-weight: bold;
+	margin: 0;
+	top: 22em;
+	color: black;
+}
+
+
+
+.card-columns {
+    column-gap: 1em;
+
+		/*column-count: 5;*/
+}
+
+@media (min-width: 34em) {
+    .card-columns {
+        -webkit-column-count: 2;
+        -moz-column-count: 2;
+        column-count: 2;
+    }
+}
+
+@media (min-width: 48em) {
+    .card-columns {
+        -webkit-column-count: 3;
+        -moz-column-count: 3;
+        column-count: 3;
+    }
+}
+
+@media (min-width: 62em) {
+    .card-columns {
+        -webkit-column-count: 4;
+        -moz-column-count: 4;
+        column-count: 4;
+    }
+}
+
+@media (min-width: 75em) {
+    .card-columns {
+        -webkit-column-count: 5;
+        -moz-column-count: 5;
+        column-count: 5;
+    }
+/*
+.btn {
+		border:none;
+}
+(/)
+/*
+.card:after {
+    content: "";
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+		background: linear-gradient(90deg, #000000 #1a1a1a);
+}
+*/
